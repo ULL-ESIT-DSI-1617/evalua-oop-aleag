@@ -26,4 +26,8 @@ UnderlinedCell.prototype.draw = function(width, height) {
   return this.inner.draw(width, height - 1)
     .concat(["-".repeat(width)]);
 };
-// End UnderlinedCell  
+// End UnderlinedCell
+
+module.exports = {
+  UnderlinedCell: UnderlinedCell
+};

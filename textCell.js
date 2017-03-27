@@ -38,3 +38,7 @@ TextCell.prototype.draw = function(width, height) {
 };
 
 // End TextCell
+
+module.exports = {
+  TextCell: TextCell
+};

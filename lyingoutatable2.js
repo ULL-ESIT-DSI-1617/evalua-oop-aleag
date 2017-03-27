@@ -1,3 +1,10 @@
+var uc = require('./underlinedcell.js');
+var tc = require('./textcell.js');
+var rtc = require('./rtextcell.js');
+var UnderlinedCell = uc.UnderlinedCell;
+var TextCell = tc.TextCell;
+var RTextCell = rtc.RTextCell;
+
 // Utils: Monkey Patching
 String.prototype.repeat = function(times) {
   var result = "";
@@ -84,7 +91,7 @@ function drawIt(data) {
 module.exports = {
   drawIt: drawIt,
   drawTable: drawTable,
+  UnderlinedCell: UnderlinedCell,
   TextCell: TextCell,
-  RTextCell: RTextCell,
-  UnderlinedCell: UnderlinedCell
+  RTextCell: RTextCell
 };

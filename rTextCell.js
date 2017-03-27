@@ -1,3 +1,6 @@
+var tc = require('./textcell.js');
+var TextCell = tc.TextCell;
+
 // RTextCell
 function RTextCell(text) {
   TextCell.call(this, text);
@@ -12,3 +15,7 @@ RTextCell.prototype.draw = function(width, height) {
   return result;
 };
 // End RTextCell
+
+module.exports = {
+  RTextCell: RTextCell
+};
