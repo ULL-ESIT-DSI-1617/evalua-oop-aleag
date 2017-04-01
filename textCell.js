@@ -21,6 +21,8 @@ class TextCell {
     };
 }
 
+// End TextCell class
+
 
 module.exports = {
     TextCell: TextCell

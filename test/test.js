@@ -12,7 +12,7 @@ var MOUNTAINS = [
   {name: "Popocatepetl", height: 5465, country: "Mexico"}
 ];
 
-var expected = 
+var expected =
 `name           height country      
 -------------- ------ -------------
 Kilimanjaro      5895 Tanzania     
@@ -24,6 +24,8 @@ Mont Blanc       4808 Italy/France
 Vaalserberg       323 Netherlands  
 Denali           6168 United States
 Popocatepetl     5465 Mexico       `;
+
+console.log(expected);
 
 describe("drawIt", function() {
   it("must draw the mountains table correctly", function() {
@@ -46,7 +48,7 @@ function checkerboard() {
   return rows;
 }
 
-var expectedCheckerboard = 
+var expectedCheckerboard =
 `##    ##    ##
    ##    ##   
 ##    ##    ##
