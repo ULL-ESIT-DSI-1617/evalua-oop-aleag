@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-aleag.svg?branch=master)](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-aleag)
+
 ## Eloquent JavaScript. Chapter 6: The Secret Life of Objects.  Section *Laying out a table*
 
 Forman parte de este ejemplo los ficheros:
